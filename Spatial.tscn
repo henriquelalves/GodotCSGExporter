@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="CSGBox" type="CSGBox" parent="."]
+width = 13.0123
+depth = 12.8443
+
+[node name="CSGCylinder" type="CSGCylinder" parent="CSGBox"]
+transform = Transform( 0.999998, -0.00145829, 0.00139671, 0.00146491, 0.0478624, -0.998853, 0.00138976, 0.998853, 0.0478644, -0.203619, 0.698373, 0.0496392 )
+operation = 2
+height = 10.534
+
+[node name="CSGBox" type="CSGBox" parent="CSGBox"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.55753, 1, 0 )
+depth = 8.0
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.679014, 0.262326, -0.685656, 0, 0.933978, 0.357331, 0.734125, -0.242633, 0.634184, -13.7388, 8.19551, 13.2599 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.183378, -0.366753, 0.912066, -0.0734647, 0.920092, 0.384751, -0.980294, -0.137559, 0.141781, 0, 7.38757, 11.2751 )
