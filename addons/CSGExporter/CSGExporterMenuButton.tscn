@@ -1,11 +1,13 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://addons/CSGExporter/CSGExporterMenuButton.gd" type="Script" id=1]
+[ext_resource path="res://addons/CSGExporter/csg_exporter_icon.png" type="Texture" id=2]
 
 [node name="CSGExporterMenuButton" type="MenuButton"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 text = "Export CSG"
+icon = ExtResource( 2 )
 items = [ "Export to OBJ", null, 0, false, false, 0, 0, null, "", false ]
 script = ExtResource( 1 )
 __meta__ = {

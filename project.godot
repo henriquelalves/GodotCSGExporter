@@ -16,7 +16,8 @@ _global_script_class_icons={
 [application]
 
 config/name="CSGExporter"
-run/main_scene="res://Spatial.tscn"
+config/description="An addon to export CSG Meshes as OBJ files."
+run/main_scene="res://demo/Spatial.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
