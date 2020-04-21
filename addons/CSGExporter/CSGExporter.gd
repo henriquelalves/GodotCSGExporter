@@ -21,6 +21,12 @@ func handles(object):
 	
 	return is_exportable_csg
 
+func clear():
+	exporter_button.hide()
+
+func make_visible(visible):
+	exporter_button.visible = visible
+
 func _exit_tree():
 	if (exporter_button):
 		remove_control_from_container(EditorPlugin.CONTAINER_CANVAS_EDITOR_MENU, exporter_button)
