@@ -12,7 +12,7 @@ albedo_color = Color( 0, 1, 0.0156863, 1 )
 [sub_resource type="SpatialMaterial" id=4]
 albedo_color = Color( 0.243137, 0.380392, 0.992157, 1 )
 
-[node name="Spatial" type="Spatial"]
+[node name="Demo" type="Spatial"]
 
 [node name="CSGBox" type="CSGBox" parent="."]
 width = 13.0123
