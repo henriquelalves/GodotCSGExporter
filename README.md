@@ -4,6 +4,8 @@ Godot editor plugin to export CSG Meshes as Wavefront (.obj) files.
 ![Godot CSG Mesh](demo/godot_screenshot.png)
 ![Exporter Wavefront Mesh on Blender](demo/blender_screenshot.png)
 
+**Disclaimer** To fix the CSGMesh material exporting, I merged mohammedzero43's CSG exporter with some slightly tweaks; the original code can be found here: https://github.com/mohammedzero43/CSGExport-Godot. Thanks for letting me use it!
+
 ## How to install
 Add the addon on your Godot project (you may copy the addon from this project folder, or install it via AssetLib). Then activate it on the project settings "Plugins" tab.
 
