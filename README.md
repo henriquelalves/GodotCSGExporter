@@ -1,4 +1,7 @@
 # Godot CSG Exporter
+
+*For more addons, check [my GitHub](https://github.com/henriquelalves) and [my itch.io](https://perons.itch.io/) page.*
+
 Godot editor plugin to export CSG Meshes as Wavefront (.obj) files.
 
 ![Godot CSG Mesh](screenshots/godot_screenshot.png)
